@@ -47,7 +47,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     position: fixed;
-    background-color:beige;
+    background-color:rgb(208, 208, 203);
     overflow:hidden;
     z-index: 2;
   }
@@ -457,7 +457,8 @@
      
     #header{
       width: 35%;
-      height: 100vh;
+      height: auto;
+      
       background-size: cover;
       /* display: block; */
       background-position: center;
@@ -467,13 +468,15 @@
     .container{
       margin: auto;
       /* margin-left: 10%; */
-      padding-left:15% ;
+      /* padding:5px 5% ; */
       width: 90%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
       /* margin-bottom: 30px; */
     }
 
    nav{
+    display: flex;
+    justify-content:space-around;
     width: 90%;
    }
   
@@ -513,9 +516,10 @@
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
+      margin: auto;
   }
   
-     .box div img{
+      .box div img{
       width: 100%;
       border-radius: 50%;
     margin-left: 140%;
@@ -535,83 +539,88 @@
     .header-text p{
       font-size: 21px;
       margin: 0px 70px;
-    }
+    } 
 
-
-    /* image 2 */
+/* ============================ABOUT========================== */
+    
+#about{
+  padding: 40px 0;
+  color: black;
+  margin-bottom: 90px;
+}
+     
     .about-col-1, .about-col-2{
       flex-basis: 100%;
   
     }
+
+
     .about-col-1 img{
       width: 0%;
     }
      
+
+    .about-col-2 .sub-title{
+       font-size: 30px; 
+      text-align: center;
+    }  
+   
+
+    .tab-titles>P{
+      font-size: 16px;
+      margin: auto;
+    }
+    .tab-contents ul li{
+      text-align: center;
+    }
+    /* ======================skills================== */
+    
     .sub-title{
       font-size: 30px;
-  text-align: center;
-    }
-    .about-col-2{
-      margin: auto;
-      text-align: center;
-    }
-
-    .about-col-1{
       margin-bottom: 30px;
-    }
-    .about-col-2 .sub-title{
-      margin-left: 100px;
-      /* font-size: 30px; */
-      text-align: center;
-    }
-  
-    .tab-titles{
-      font-size: 16px;
-      margin-left: 190px;
-
     }
     
     .skill-list{
       display: grid;
-      grid-template-columns: repeat(2,200px);
+      grid-template-columns: repeat(2,250px);
+      gap: 30px;
       margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
       
     }
+
+    /* ===================projects=================== */
+    
+    #project .container{
+      padding: 0 2%;
+    }
+
     .work-list{
   
       display: grid;
          /* grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); */
-         grid-template-columns: repeat(2,300px);
-         /* grid-gap: 100px; */
+         grid-template-columns: repeat(2,320px);
+         grid-gap: 20px;
          margin-top: 50px;  
        
         
     }
     .work{
-      padding: 5px 5px;
-     
-      /* padding: 10px; */
-      border-radius: 10px;
-      /* position: relative; */
-      overflow: hidden;
-      background-color: #e4e2e2;
-      box-shadow: 2px 2px 2px 2px #a8a7a6;
-      border: 1px solid red;
-      height: 75vh;
-      margin-top: -20px;
+      height: auto;
+      margin-top: 20px;
       
     }
-   .work-list{
-     gap: 20px;
-   }
+
    .work img{
     height: 40%;
    }
    .work p{
     font-size: 16px;
    }
-
-    #contact{
+/* ======================contact====================== */
+   
+#contact{
       margin-top: 10px;
     }
     .contact-left, .contact-right{
@@ -624,7 +633,186 @@
   }
   
   /* -------------------------------------smalll-------------- */
-      
+ 
+
+@media all and (min-width:0px) and (max-width:480px){
+
+  
+  #header{
+    width: 35%;
+    height: auto;
+    
+    background-size: cover;
+    /* display: block; */
+    background-position: center;
+  
+  }
+
+  .container{
+    margin: auto;
+    /* margin-left: 10%; */
+    /* padding:5px 5% ; */
+    width: 90%;
+/* border: 1px solid red; */
+    /* margin-bottom: 10px; */
+  }
+
+ nav{
+  display: flex;
+  justify-content:space-around;
+  width: 90%;
+ }
+
+
+ 
+  nav .fas{
+    display: block;
+    /* .fas it is visible */
+    font-size: 25px;
+  }
+  nav ul{
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    /* why 200 bez width is 200 */
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 25px;
+
+  }
+  nav ul .fas{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+ 
+
+  .box{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: auto;
+}
+
+    .box div img{
+    width: 100%;
+    border-radius: 50%;
+  margin-left: 140%;
+   }
+
+   .header-text{
+    text-align: center;
+   }
+
+   .header-text h1{
+    font-size: 40px;
+    text-align: center;
+   }
+  .header-text h2{
+    font-size: 30px;
+  }
+  .header-text p{
+    font-size: 21px;
+    margin: 0px 70px;
+  } 
+
+/* ============================ABOUT========================== */
+    
+.about-col-1, .about-col-2{
+  flex-basis: 100%;
+text-align: center;
+}
+
+
+.about-col-1 img{
+  width: 0%;
+}
+ 
+
+.about-col-2 .sub-title{
+   font-size: 30px; 
+  text-align: center;
+}  
+
+
+.tab-titles>P{
+  font-size: 16px;
+  margin: auto;
+}
+.tab-contents ul li{
+  text-align: center;
+}
+/* ======================skills================== */
+
+.sub-title{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.skill-list{
+  display: grid;
+  grid-template-columns: repeat(2,170px);
+  gap: 30px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+/* ===================projects=================== */
+
+/* #project .container{
+  padding: 0 2%; 
+   border: 1px solid rebeccapurple;
+  
+} */
+
+.work-list{
+
+  display: grid;
+     /* grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); */
+     grid-template-columns: repeat(1,320px);
+     
+     margin-top: 10px;  
+     
+   
+    
+}
+.work{
+  height: auto;
+  margin-top: 0px;
+  
+}
+
+.work img{
+height: 40%;
+}
+.work p{
+font-size: 16px;
+}
+/* ======================contact====================== */
+
+#contact{
+  margin-top: 10px;
+}
+.contact-left, .contact-right{
+  flex-basis: 100%;
+
+}
+.copyright{
+  font-size: 14px;
+}
+
+ 
+}
 
 
   

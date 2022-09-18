@@ -16,12 +16,12 @@
             <!-- <img src="" alt="" class="logo"> -->
             <h1><span>V</span>inayak</h1>
             <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skill">Skills</a></li>
-                <li><a href="#tech stack">Teck Stack</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#header" onclick="closemenu()">Home</a></li>
+                <li><a href="#about" onclick="closemenu()">About</a></li>
+                <li><a href="#skill" onclick="closemenu()">Skills</a></li>
+                <li><a href="#tech stack" onclick="closemenu()">Teck Stack</a></li>
+                <li><a href="#project" onclick="closemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="closemenu()">Contact</a></li>
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -54,11 +54,11 @@
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, magni deleniti veniam magnam exercitationem quo ratione consectetur sapiente fugit inventore.</p>
            
                      <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
-                        <p class="tab-links" onclick="opentab('education')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <!-- <p class="tab-links" onclick="opentab('projects')">projects</p> -->
                      </div>
-                     <div class="tab-contents active-tab" id="skills">
+                     <div class="tab-contents active-tab" id="education">
                         <ul>
 
                             <li><span>Full Stack Web Development - Full Time</span><br>Masai School , Bangloare <br>Present</li>
@@ -69,7 +69,7 @@
                         </ul>
                      </div>
 
-                     <div class="tab-contents" id="education">
+                     <div class="tab-contents" id="experience">
                         <ul>
                             <li><span>Junior Tech </span><br>Shaurya Aeronautics , Palam Delhi <br></li>
                         </ul>
@@ -240,6 +240,8 @@
                  </div>
             </div>
 
+            
+           
 
         </div>
         
@@ -306,6 +308,10 @@ function openmenu(){
 function closemenu(){
     sidemenu.style.right="-200px"
 }
+
+
+
+
 
 </script>
 <!-- ==========================Portfolio data================================== -->
