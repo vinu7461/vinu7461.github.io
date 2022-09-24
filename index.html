@@ -198,8 +198,14 @@
     </div>
 </div> 
 
+<!-- ------------------------------------------git calendar----------------------------------- -->
 
+<h1 class="sub-title">Git Contrbution</h1>
 
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
 
 
 
@@ -341,6 +347,31 @@ function closemenu(){
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+
+  <!-- ==================================git calendar-------------- -->
+
+  <script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<script>
+    GitHubCalendar(".calendar", "vinu7461");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "vinu7461", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "vinu7461", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${vinu7461}`)
+       }
+    }).then(r => r.text())
+</script>
 
 </body>
 </html>
