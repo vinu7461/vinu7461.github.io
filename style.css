@@ -361,12 +361,14 @@
  /* ===========================      git calender  */
 
  .calendar{
-    width: 100%;
+    width: 90%;
     /* background:; */
     color: wheat;
+    margin-bottom: 10px;
  }
 
  #stats {
+  padding: 10%;
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
