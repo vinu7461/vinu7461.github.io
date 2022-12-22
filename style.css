@@ -364,12 +364,10 @@
     width: 90%;
     /* background:; */
     color: wheat;
-    margin-bottom: 10px;
  }
 
  #stats {
-  padding: 10%;
-    margin-top: 50px;
+  padding: 5%;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
