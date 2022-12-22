@@ -153,9 +153,7 @@
    /* ===========================      header  */  
 
    .header-text{
-    /* width: 400%; */
     width: 80%;
-    /* border: 1px solid blue; */
     margin-top: 5%;
     font-size: 27px;
   
@@ -182,9 +180,6 @@
     padding: 5% 10%;
     display: flex;
     flex-direction: row;
-    /* border: 1px solid red; */
-    /* justify-content: space-between; */
-    /* border: 1px solid rebeccapurple; */
     margin: auto;
     text-align: left;
     justify-content: center;
@@ -246,7 +241,6 @@
   }
   
   .sub-title{
-    /* padding-top: -10%; */
     font-size: 40px;
     font-weight: 600;
     color:#ff004f;
@@ -310,9 +304,6 @@
 
    #skill{
     padding: 70px 0px 0px 0px;
-    /* margin-top: -50px; */
-    /* height: 100vh; */
-  
   }
   #techstack{
     padding: 70px 0px 30px 0px;
@@ -336,7 +327,6 @@
   .skill-list div{
     background:  #ababab;
     padding: 30px;
-    /* font-size: 13px; */
     font-weight: 300px;
     border-radius: 10px;
   text-align: center;
@@ -356,13 +346,10 @@
 
 
 
-
-
  /* ===========================      git calender  */
 
  .calendar{
     width: 90%;
-    /* background:; */
     color: wheat;
  }
 
@@ -397,19 +384,15 @@
     padding:5px;
    
     border-radius: 10px;
-    /* position: relative; */
     overflow: hidden;
     background-color: #e4e2e2;
     box-shadow: 2px 2px 2px 2px #a8a7a6;
     border: 1px solid red;
     justify-content: space-between;
-    /* height: 70vh; */
-    /* margin-top: -20px; */
      
   }
   .work img{
     width: 100%;
-   /* height: 60%; */
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -433,7 +416,6 @@
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
-    /* margin-bottom: 5px; */
   
    }
 
@@ -450,13 +432,7 @@
   }
 
   
-  /* .work:hover .layer{
-    height: 100%;
-  } */
-
-   
-
-
+  
 
 
 
@@ -591,7 +567,7 @@ nav .fas {
       }
 
       nav ul{
-        background: #ff004f;
+        background: #56cbfd;
         position: fixed;
         top: 0;
         right: -200px;
@@ -687,9 +663,7 @@ nav .fas {
     grid-template-columns: repeat(2,250px);
     gap: 30px;
     justify-content: center;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
-    
+   
   }
 
 
@@ -792,7 +766,6 @@ nav .fas {
 #box div img{
   width: 60%;
   margin-left: 130px;
-  /* margin-top: 120px; */
 }
 
 
@@ -821,7 +794,6 @@ nav ul li a{
 .contact-left, .contact-right{
   flex-basis: 100%;
   margin: auto;
-  /* text-align: center; */
   
 
 }
@@ -893,7 +865,6 @@ nav ul li a{
       .contact-left, .contact-right{
         flex-basis: 100%;
         margin: auto;
-        /* text-align: center; */
         
       
       }
@@ -912,9 +883,7 @@ nav ul li a{
         grid-template-columns: repeat(1,250px);
         gap: 20px;
         justify-content: center;
-        /* margin-top: 20px;
-        margin-bottom: 20px; */
-        
+      
       }
 
       .work-list{
