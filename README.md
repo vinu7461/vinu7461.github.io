@@ -1,6 +1,6 @@
 # Portfolio
 
-Type: Indiviual Project
+Type: Indiviual Project 
 
 Tech Stack: HTML, CSS, JavaScript
 
