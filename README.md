@@ -2,7 +2,7 @@
 
 Type: Indiviual Project 
 
-Tech Stack: HTML, CSS, JavaScript
+Tech Stack: HTML, CSS, JavaScript 
 
 Description:
 
