@@ -154,14 +154,14 @@
 
    .header-text{
     width: 80%;
-    margin-top: 5%;
+    margin-top: 2%;
     font-size: 27px;
   
   }
   
   .header-text h1{
     color:  #ababab;
-    font-size: 50px ;
+    font-size: 45px ;
     margin-top: 10px;
   }
   .header-text h2{
@@ -746,7 +746,6 @@ nav .fas {
 /* ===========================      header  */   */
 
  .header-text{
-  /* width: 400%; */
   margin-top: 10%;
 
 }
