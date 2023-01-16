@@ -4,7 +4,7 @@ Type: Indiviual Project
 
 Tech Stack: HTML, CSS, JavaScript  
 
-Description:
+Description: 
 
 This is my personal portfolio where I have share all information related to my Skills ,Experience & Projects.
 
