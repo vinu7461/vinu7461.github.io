@@ -569,7 +569,6 @@ nav .fas {
         position: fixed;
         top: 0;
         right: -200px;
-        /* why 200 bez width is 200 */
         width: 200px;
         height: 100vh;
         padding-top: 50px;
@@ -688,7 +687,6 @@ nav .fas {
   .work-list{
   
     display: grid;
-       /* grid-template-columns: repeat(auto-fit, minmax(230px,1fr)); */
        grid-template-columns: repeat(2,1fr);
        grid-gap: 30px;
        margin-top: 50px;  
@@ -739,7 +737,7 @@ nav .fas {
 
   @media all and (min-width:811px) and (max-width:1220px){
 
-    /* @media all and (min-width:811px) and (max-width:1388px){ */
+   
 
 /* ===========================      header  */   */
 
